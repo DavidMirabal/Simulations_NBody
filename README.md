@@ -32,3 +32,11 @@ The code has been tested in Python 3.10, and the necessary external packages are
 * `dmb_figures.py`: Used to create figures easily with the same style.
 
 * `image_to_video.py`: Script to transform frames to a video.
+
+* `images`: Directory with all the frames generated from the simulations carried out in `Deliverable.ipynb`.
+
+* `videos`: Directory with all the videos generated from the simulations carried out in `Deliverable.ipynb`. Also here: [N-body playlist](https://youtube.com/playlist?list=PLmVmqY3WbRtl9BYNBvtgxdRB4fSKR4dF0&si=lfuA13CoeZ6GQ4CQ)
+
+* `time_test`: Initial condition files used for the analysis of execution time.
+
+* `ics`: Initial conditions of the simulations carried out in `Deliverable.ipynb`.
