@@ -51,7 +51,7 @@ class Nbody_simulation:
         self.next_show = 0.0
 
         self.x0 = torch.from_numpy(data[:, 1:]).to(device)
-        self.x = torch.clone(self.x0)
+        self.x = torch.clone(self.x0)  # Positions[:, :3] and velocities[:, 3:] array
         self.x_line = torch.empty(frames, len(self.m), 3)
 
         if not (os.path.exists(self.dir_images)):
