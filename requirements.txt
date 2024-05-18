@@ -3,4 +3,4 @@ matplotlib==3.7.1
 numpy==1.25.0
 Pillow==9.5.0
 tqdm==4.66.1
-torch==2.2.2+cu121
+torch==2.2.2
